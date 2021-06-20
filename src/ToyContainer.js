@@ -15,4 +15,3 @@ function ToyContainer({ toys, onDeleteToy, onUpdateToy }) {
 }
 
 export default ToyContainer;
-

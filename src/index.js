@@ -10,13 +10,13 @@ function createCard(json) {
   const collection = document.querySelector('div#toy-collection');
 
   for (const toy of json) {
-    let newDiv = document.createElement('div') 
-    newDiv.className = "card" 
+    let newDiv = document.createElement('div')
+    newDiv.className = "card"
     createName(toy, newDiv)
     createPhoto(toy, newDiv)
     totalLikes(toy, newDiv)
     addButton(toy, newDiv)
-    collection.appendChild(newDiv); 
+    collection.appendChild(newDiv);
   }
 }
 

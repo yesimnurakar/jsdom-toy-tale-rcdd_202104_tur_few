@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App.js";
+import App from "./App";
 import "./index.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));const addBtn = document.querySelector('#new-toy-btn')const toyForm = document.querySelector('.container')let addToy = falselet divCollect = document.querySelector('#toy-collection')
